@@ -1,0 +1,14 @@
+# Rudra shared reference run (PARAM Rudra CPU node)
+# Model: Llama-3.2-1B-Instruct Q4_K_M (762.81 MiB, 1.24B params)
+# Hardware: Intel Xeon Gold 6240R (2 sockets, 24 cores/socket, 48 threads), 187 GB RAM
+# llama.cpp commit: 51a77c4f247ce96fb932e29c9f81625ca9d3b0b7 (build 12542)
+# Threads: 4 (via sbatch, 4 CPUs allocated, 5-min QoS limit)
+# Each run: 512-token prompt (pp512), 128-token decode (tg128), r=3
+# Peak RSS: 1393932 KB (~1.36 GB), well under 4.5 GB budget
+run,prefill_tps,decode_tps
+1,163.60,29.02
+mean,163.60,29.02
+std,3.24,0.19
+```
+filePath">
+D:\Padhai\sem 7\ldls\LDLS Project 1\results\rudra_reference.csv
