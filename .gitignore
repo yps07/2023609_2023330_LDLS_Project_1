@@ -1,0 +1,28 @@
+# Large artifacts live outside the repo (WSL native FS)
+*.gguf
+*.bin
+*.pt
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+__pycache__/
+
+# Large artifacts live outside the repo (WSL native FS) or are regenerable
+*.gguf
+*.bin
+*.pt
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+__pycache__/
+
+# Generated figures are committed, but not intermediate temp files
+plots/tmp/
+results/*.err
+results/.bench_tmp.csv
+results/.rss_tmp.txt
+
+# OpenCode session files
+.omo/
