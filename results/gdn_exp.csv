@@ -1,0 +1,4 @@
+variant,n_tokens,n_threads,iters,mean_us,std_us,min_us
+K=1_contig,1,4,500,95.91,23.43,65.63
+K=4_contig,1,4,500,213.07,51.28,117.50
+K=1_permuted,1,4,500,100.48,43.06,64.52

@@ -1,0 +1,2 @@
+Peak RSS (full 25-point matrix, /usr/bin/time -v): 76952 KB ~ 75.1 MB
+Well under the 4.5 GB memory budget.
